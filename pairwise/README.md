@@ -6,8 +6,16 @@ If multiple pairs are possible that have the same numeric elements but different
 
 For example `pairwise([7, 9, 11, 13, 15], 20)` returns `6`. The pairs that sum to `20` are `[7, 13]` and `[9, 11]`. We can then write out the array with their indices and values.
 
- Index	| 0	| 1	| 2	| 3	| 4 
- Value	| 7	| 9	| 11	 | 13	| 15 
+
+
+ Index | Value
+ ------|------
+ 0 | 7
+ 1 | 9
+ 2 | 11
+ 3 | 13
+ 4 | 15
+
 
 Below we'll take their corresponding indices and add them.
 
